@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./alert.css"
 function Alert(props) {
     const capitilize = (word) =>{
         const lower = word.toLowerCase();
