@@ -4,7 +4,7 @@ function Mainbody(props) {
   return (
     <>
       <div className="container my-5" id="main-body-home">
-        <div className="row flex-column-reverse">
+        <div className="row">
           <div className="col">
             <div className="jumbotron">
               <h1 className="display-4 text-secondary ">{props.heading}</h1>
