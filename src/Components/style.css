@@ -1,0 +1,114 @@
+a:active{
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+    color:white;
+}
+.main-body{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: gainsboro;
+    color: rgb(92, 91, 91);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-card-body{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* margin: 20px; */
+}
+
+.card{
+    width: 350px;
+}
+
+.card-img-top{
+    height: 450px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.aboutsidebar{
+    /* border: 1px solid red; */
+    height: 950px;
+    width: 780px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    margin-right: -50px;
+}
+
+#aboutsidebar img{
+    margin: 20px 20px 30px 20px;
+    height: 100px;
+    width: 150px;
+    transition: transform .90s;
+    /* border: 1px solid red; */
+}
+
+#aboutsidebar img:hover{
+    transform: scale(1.3);
+}
+
+.style-four {
+    height: 12px;  
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.our-team{
+    position: relative;
+}
+/* footer class */
+
+#footer-main{
+    margin-left: 0;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 100;
+}
+
+.footer-top{
+    /* border:1px solid red; */
+    overflow: hidden;
+    
+}
+.footer-down{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+/*
+ #search-box{
+    width: 400px;
+    height: 40px;
+ border: 1px solid red; 
+    display: flex;
+    justify-content: flex-end;
+
+*/
+
+/* #search-box input{
+    width: 300px;
+    margin-right: 5px;
+} */
